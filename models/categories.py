@@ -1,6 +1,6 @@
 import sqlite3
-from .base_model import AbstractBaseClass
-from .constants import PATH_TO_DB
+from base_model import AbstractBaseClass
+from constants import PATH_TO_DB
 
 class Category(AbstractBaseClass):
     def __init__(self, id=None, name=None):

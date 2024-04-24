@@ -1,8 +1,8 @@
 import sqlite3
 import json
-from .base_model import AbstractBaseClass
-from .exceptions import ModelNotFoundError
-from .constants import PATH_TO_DB
+from base_model import AbstractBaseClass
+from exceptions import ModelNotFoundError
+from constants import PATH_TO_DB
  
 class User(AbstractBaseClass):
     TABLE_NAME = "User"

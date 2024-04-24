@@ -1,8 +1,8 @@
 import sqlite3
-from .base_model import AbstractBaseClass
-from .constants import PATH_TO_DB
-from .categories import Category
-from .users import User
+from base_model import AbstractBaseClass
+from constants import PATH_TO_DB
+from categories import Category
+from users import User
 
 class Expense(AbstractBaseClass):
     def __init__(self, name=None,amount=None,description=None, id=None,user_id=None,cat_id=None):
